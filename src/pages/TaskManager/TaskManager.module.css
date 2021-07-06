@@ -1,0 +1,94 @@
+.taskPageContainer{
+    display: flex;
+    flex-flow: column;
+    padding: 1rem 3rem;
+}
+
+.pageHeaderContainer{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.pageHeaderContainer h2{
+    margin: 0;
+}
+
+.pageHeaderContainer > div{
+    display: flex;
+}
+
+.createTaskBtn{
+    border-radius: 5px;
+    padding: 0.5rem 2rem ;
+    cursor: pointer;
+    background-color: #f1802d;
+    color: white;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.logoutButton{
+    border: none;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+.logoutButton img{
+    border-radius: 50%;
+    height: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.logoutButton:active{
+    box-shadow: none;
+}
+
+.createTaskBtn:active{
+    box-shadow: none;
+}
+
+.kanbanContainer{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.kanbanContainer > div{
+    background-color: white;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    flex-basis: 28%;
+    font-size: 0.9em;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.kanbanContainer > div p{
+    color: rgb(94, 108, 132);
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 1rem;
+    text-align: left;
+} 
+
+.kanbanContainer > div div{
+    margin-bottom: 1rem;
+} 
+
+.kanbanContainer > div > div:active{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px !important;
+} 
+
+.taskcard{
+    padding: 0.5rem 0.5rem !important;
+    cursor: pointer;
+    display: flex;
+    justify-content:space-between;
+}
+
+.assignedTask{
+    border-radius: 50%;
+    padding: 0.5rem;
+    background-color: #F1802D;
+}

@@ -1,0 +1,8 @@
+.Container img{
+    position: fixed;
+    top: 42%;
+    left: 42%;
+    height: 150px;
+    width: 150px;
+    object-fit: contain;
+}

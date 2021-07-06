@@ -1,0 +1,19 @@
+.imageContainer{
+    display: flex;
+    flex-flow: row;
+}
+
+.imageUploader input{
+    display: none;
+}
+
+.imageUploader img{
+    cursor: pointer;
+}
+
+.uploadImageDisplay{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: 1rem;
+}

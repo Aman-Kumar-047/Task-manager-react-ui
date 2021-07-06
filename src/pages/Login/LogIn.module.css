@@ -1,0 +1,57 @@
+.bgContainer{
+    display: flex;
+    justify-content: center;
+    padding: 5rem 5rem;
+    /* box-sizing: border-box; */
+}
+
+
+.loginContainer{
+    display: flex;
+    flex-flow: row nowrap;
+    /* width: 100%; */
+}
+
+.loginForm{
+    flex-basis: 60%;
+    padding: 5rem !important;
+}
+
+.loginForm h2{
+    color: #08B6CE;
+}
+
+.loginForm p{
+    color: rgb(94, 108, 132);
+    font-size: 0.9em;
+}
+
+.loginCreative{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    flex-basis: 40%;
+    background-color: #08B6CE;
+}
+
+.loginCreative p{
+    color: white;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    font-size: 1em;
+}
+
+.loginButton{
+    border-radius: 15px;
+    padding: 0.5rem 2rem ;
+    cursor: pointer;
+    background-color: #f1802d;
+    color: white;
+    border: none;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.loginButton:disabled{
+    opacity: 0.5;
+    cursor:not-allowed;
+}
