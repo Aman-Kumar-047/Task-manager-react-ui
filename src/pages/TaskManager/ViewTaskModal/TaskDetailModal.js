@@ -1,10 +1,10 @@
-import React, { useState, useMemo, useEffect } from "react";
+import React, { useEffect } from "react";
 
 import classes from "./TaskDetailModal.module.css";
 
 import ModalContainer from "../../../components/ModalContainer/ModalContainer";
-import Input from "../../../components/Input/Input";
-import SearchDropdown from "../../../components/DropdownSelect/DropdownSelect";
+// import Input from "../../../components/Input/Input";
+// import SearchDropdown from "../../../components/DropdownSelect/DropdownSelect";
 
 const TaskDetailModal = (props) => {
   useEffect(

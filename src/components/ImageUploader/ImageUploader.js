@@ -1,4 +1,4 @@
-import React, {useReducer, useEffect, useState, useMemo} from 'react';
+import React, {useReducer, useEffect} from 'react';
 import classes from './ImageUploader.module.css';
 
 // import PropTypes from 'prop-types';

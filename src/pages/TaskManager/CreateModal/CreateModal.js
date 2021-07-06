@@ -13,7 +13,7 @@ const CreateModal = (props) => {
   const [authorizationToken, setAuthorizationToken] = useState("");
   const [searchedUsersArray, setSearchedUsersArray] = useState([]);
   const [selectedAssigneeObject, setSelectedAssigneeObject] = useState("");
-  const [uploadedImagesUrlArray, setUploadedImagesUrlArray] = useState("");
+  // const [uploadedImagesUrlArray, setUploadedImagesUrlArray] = useState("");
 
   useEffect(
     () => {
