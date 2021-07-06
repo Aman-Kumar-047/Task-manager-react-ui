@@ -37,7 +37,7 @@ const LogIn = (props) => {
     LoginInitialState
   );
 
-  const memoizedValue = useMemo(
+  useMemo(
     () => {
         if(LoginState.username.length > 0 && LoginState.password.length > 0){
           LoginHandler({

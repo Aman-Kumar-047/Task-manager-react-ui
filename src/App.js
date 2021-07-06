@@ -20,7 +20,7 @@ const TaskManager = lazy(() => import('./pages/TaskManager/TaskManager'));
 
 function App() {
     let [isLoggedIn,setIsLoggedIn] = useState("");
-
+    console.log("isLoggedIn",isLoggedIn)
     let tokenExists = false;
     if (typeof Storage !== "undefined") {
         tokenExists = localStorage.getItem("token") && localStorage.getItem("token").length > 0 ? true :false;

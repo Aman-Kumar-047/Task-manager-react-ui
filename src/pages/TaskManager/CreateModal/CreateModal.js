@@ -14,7 +14,7 @@ const CreateModal = (props) => {
   const [searchedUsersArray, setSearchedUsersArray] = useState([]);
   const [selectedAssigneeObject, setSelectedAssigneeObject] = useState("");
   const [uploadedImagesUrlArray, setUploadedImagesUrlArray] = useState("");
-
+console.log("uploadedImagesUrlArray",uploadedImagesUrlArray,memoizedValue);
   useEffect(
     () => {
       if (typeof Storage !== "undefined") {
@@ -35,7 +35,6 @@ const CreateModal = (props) => {
 
   const onClickOfCreateTask = () => {
     console.log("selectedAssigneeObject",selectedAssigneeObject);
-    let formData = new FormData();
     // for (let i = 0; i < uploadImageFileArray.length; i++) {
     //   let file = uploadImageFileArray[i];
     //   console.log("file", file);

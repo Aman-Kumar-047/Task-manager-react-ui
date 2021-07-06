@@ -33,7 +33,7 @@ Card.propTypes = {
     footer: PropTypes.node,
     isRoundedBorder: PropTypes.bool,
     cardColor: function(props, propName, componentName) {
-        if (props[propName] != undefined && !/^#[0-9a-fA-F]{6}$/.test(props[propName])) {
+        if (props[propName] !== undefined && !/^#[0-9a-fA-F]{6}$/.test(props[propName])) {
           return new Error(
             'Invalid prop `' + propName + '` supplied to' +
             ' `' + componentName + '`. Must be a valid color code.'

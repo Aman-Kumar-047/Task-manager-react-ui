@@ -82,7 +82,7 @@ const ImageUploader = (props) => {
             <img
                 className={classes.uploadImageDisplay}
               src={srcUrl}
-              key={`upload_${index}`}
+              key={`upload_${index}`} alt="alt"
             />
           );
         });   
@@ -92,7 +92,7 @@ const ImageUploader = (props) => {
         <div className={classes.imageContainer}>
         <div className={classes.imageUploader}>
           <label htmlFor="images">
-            <img src="https://img.icons8.com/fluent/50/000000/image.png" />
+            <img src="https://img.icons8.com/fluent/50/000000/image.png" alt="alt" />
           </label>
           <input
             type="file"

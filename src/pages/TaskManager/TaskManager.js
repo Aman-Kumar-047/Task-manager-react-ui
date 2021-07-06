@@ -226,7 +226,7 @@ const TaskManager = (props) => {
             history.push("/");
           }}
         >
-          <img src="https://img.icons8.com/flat-round/64/000000/shutdown.png"/>
+          <img src="https://img.icons8.com/flat-round/64/000000/shutdown.png" alt="alternate" />
         </button>
         </div>
       </div>
