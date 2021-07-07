@@ -14,7 +14,7 @@ const CreateModal = (props) => {
   const [searchedUsersArray, setSearchedUsersArray] = useState([]);
   const [selectedAssigneeObject, setSelectedAssigneeObject] = useState("");
   const [uploadedImagesUrlArray, setUploadedImagesUrlArray] = useState("");
-console.log("uploadedImagesUrlArray",uploadedImagesUrlArray,memoizedValue);
+console.log("uploadedImagesUrlArray",uploadedImagesUrlArray);
   useEffect(
     () => {
       if (typeof Storage !== "undefined") {
@@ -23,7 +23,7 @@ console.log("uploadedImagesUrlArray",uploadedImagesUrlArray,memoizedValue);
     }, []
   );
 
-  const memoizedValue = useMemo(() => {
+  useMemo(() => {
     if (props.isModalVisible === false) {
       setTitleInputValue("");
       setDescTextareaValue("");

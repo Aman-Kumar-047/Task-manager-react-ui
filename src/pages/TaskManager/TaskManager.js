@@ -81,10 +81,10 @@ const TaskManager = (props) => {
         userId = localStorage.getItem("userId");
       }
       tasksListArray.forEach((task, index) => {
-        let isTaskAssignedToUser = userId==task.assignee;
+        let isTaskAssignedToUser = userId === task.assignee;
         if (
-          task.status != undefined &&
-          task.status != null &&
+          task.status !== undefined &&
+          task.status !== null &&
           task.status.length > 0
         ) {
           switch (task.status) {
